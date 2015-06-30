@@ -26,10 +26,16 @@
         SKAction *move = [SKAction moveByX:(size.width - platform.size.width) y:0 duration:2];
         // Create another action, which is the reverse of the first, to move it back
         SKAction *moveBack = [move reversedAction];
-        // Finally, create a third action which will sequence the first two
-        SKAction *backAndForth = [SKAction sequence:@[move, moveBack]];
+        // Finally again, a wait action for separating the two...
+        SKAction *wait = [SKAction waitForDuration:1.5];
 
-        [platform runAction:backAndForth];
+        // Build our sequence
+        SKAction *backAndForth = [SKAction sequence:@[move, wait, moveBack, wait]];
+        
+        // A repeater action
+        SKAction *repeater = [SKAction repeatActionForever:backAndForth];
+        
+        [platform runAction:repeater];
         
 
     }
