@@ -23,8 +23,13 @@
         
         
         // Create an action - for moving the platform from one side to the other
-        SKAction *move = [SKAction moveToX:size.width - (platform.size.width / 2) duration:2];
-        [platform runAction:move];
+        SKAction *move = [SKAction moveByX:(size.width - platform.size.width) y:0 duration:2];
+        // Create another action, which is the reverse of the first, to move it back
+        SKAction *moveBack = [move reversedAction];
+        // Finally, create a third action which will sequence the first two
+        SKAction *backAndForth = [SKAction sequence:@[move, moveBack]];
+
+        [platform runAction:backAndForth];
         
 
     }
