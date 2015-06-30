@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>45F01541-F653-4695-BFA1-E4E63E881C61</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AnimationExamples</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8799C2D6E77C83FAC22A9C281B60DD4055E6F91A</key>
+		<string>https://github.com/Howlinmoon/AnimationExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AnimationExamples.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8799C2D6E77C83FAC22A9C281B60DD4055E6F91A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Howlinmoon/AnimationExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8799C2D6E77C83FAC22A9C281B60DD4055E6F91A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8799C2D6E77C83FAC22A9C281B60DD4055E6F91A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AnimationExamples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

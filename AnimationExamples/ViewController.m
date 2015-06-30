@@ -11,6 +11,11 @@
 
 @implementation ViewController
 
+
+-(BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
